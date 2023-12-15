@@ -53,6 +53,6 @@ ln -s "$file_path/north" "$file_path/north/east/west/back"
 ln -s "$file_path/north/east" "$file_path/north/east/east/west/back"
 ln -s "$file_path/north/east/east" "$file_path/north/east/east/east/west/back"
 ln -s "$file_path/north/east/east" "$file_path/north/east/east/north/south/back"
-ln -s "$file_path” “$file_path/north/south/back"
+ln -s "$file_path" "$file_path/north/south/back"
 
 echo "File structure created successfully!"
